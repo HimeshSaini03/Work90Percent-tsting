@@ -1,0 +1,39 @@
+.message-cont
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.message-cont h1
+{
+    font-weight: 700;
+    color: #333;
+}
+
+.all-messages
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.message
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    border: 1px solid #000000;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
